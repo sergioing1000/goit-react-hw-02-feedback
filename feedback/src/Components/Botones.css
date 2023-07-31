@@ -1,0 +1,24 @@
+.BotonList{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.BotomGood {
+  background-color: #4CAF50;
+  color: white;
+  box-shadow: 0 4px 8px rgba(76, 175, 80, 0.2);
+}
+
+.BotomNeutral {
+  background-color: #FFC107;
+  color: white;
+  box-shadow: 0 4px 8px rgba(255, 193, 7, 0.2);
+}
+
+.BotomBad {
+  background-color: #F44336;
+  color: white;
+  box-shadow: 0 4px 8px rgba(244, 67, 54, 0.2);
+}
