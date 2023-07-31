@@ -1,3 +1,28 @@
+.BotonList {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.BotomGood {
+  background-color: #4CAF50;
+  color: white;
+  box-shadow: 0 4px 8px rgba(76, 175, 80, 0.2);
+}
+
+.BotomNeutral {
+  background-color: #FFC107;
+  color: white;
+  box-shadow: 0 4px 8px rgba(255, 193, 7, 0.2);
+}
+
+.BotomBad {
+  background-color: #F44336;
+  color: white;
+  box-shadow: 0 4px 8px rgba(244, 67, 54, 0.2);
+}
+
 
 table {
   width: 100%;
@@ -17,6 +42,8 @@ td {
 
 thead {
   background-color: #757272;
+  font-weight: 600;
+  font-size: 20px;
 }
 
 
@@ -34,7 +61,6 @@ td:nth-child(2) {
 
 td:first-child {
   text-transform: capitalize;
-  
 }
 
 
@@ -52,4 +78,16 @@ table {
 body {
   padding: 20px;
   background-color: #b1b0b0;
+}
+
+.TOTALES{
+  font-weight: 1000;
+  color: #3a043a;
+  font-size: 25px;
+}
+
+.SUMMARY{
+  font-weight: 1000;
+  color: #3a043a;
+  font-size: 25px;
 }

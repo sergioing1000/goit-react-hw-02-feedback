@@ -9,17 +9,20 @@ export const Botones = ({ contGoods, contNeutrals, contBads }) => {
 
   const handleGoodButtonClick = () => {
     console.log("¡Good button clicked!");
-    setcGoods (cGoods +1 );
+    setcGoods(cGoods + 1);
+    console.log(cGoods);
   }
 
   const handleNeutralButtonClick = () => {
     console.log("¡Neutral button clicked!");
-    setcNeutrals (cNeutrals +1 );
+    setcNeutrals(cNeutrals + 1);
+    console.log(cNeutrals);
   }
 
   const handleBadButtonClick = () => {
     console.log("¡Bad button clicked!");
-    setcBads (cBads +1 );
+    setcBads(cBads + 1);
+    console.log(cBads);
   }
 
   return [
