@@ -42,6 +42,7 @@ export const Statistics = ( {valueG, valueN, valueB} ) => {
         <li className="BotomNeutral"><button onClick={handleNeutralButtonClick}>Neutral</button></li>
         <li className="BotomBad"><button onClick={handleBadButtonClick}>Bad</button></li>
       </ul>
+      
 
       <h2>Statistics</h2>
 
